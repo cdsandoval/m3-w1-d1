@@ -1,0 +1,77 @@
+html,
+body {
+  background-image: url("https://wallpaperbro.com/img/467849.jpg");
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+#logo-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+#nav-bar {
+  flex-grow: 1;
+  text-align: center;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+}
+
+#nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav-bar ul li a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+#nav-bar ul li {
+  display: inline-block;
+  width: 80px;
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+#social-bar ul {
+  list-style-type: none;
+}
+
+#social-bar ul {
+  display: flex;
+  align-items: center;
+}
+
+#social-bar ul li {
+  margin: 0 10px;
+}
+
+main {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main div {
+  text-align: center;
+  margin-top: 270px;
+  font-size: 30px;
+}
+
+.rs-icon {
+  width: 40px;
+}
