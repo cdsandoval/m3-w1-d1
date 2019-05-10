@@ -1,8 +1,6 @@
 html,
 body {
   background-image: url("https://wallpaperbro.com/img/467849.jpg");
-  height: 100%;
-  margin: 0;
 }
 
 header {
@@ -18,6 +16,11 @@ header {
   height: 50px;
   margin-left: 30px;
 }
+
+.logo {
+  width: 200px;
+}
+/*qwqw*/
 
 #nav-bar {
   flex-grow: 1;
@@ -48,30 +51,22 @@ header {
 
 #social-bar ul {
   list-style-type: none;
-}
-
-#social-bar ul {
+  width: 200px;
   display: flex;
   align-items: center;
 }
 
 #social-bar ul li {
-  margin: 0 10px;
+  margin: 0 3px;
 }
 
-main {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.rs-icon {
+  width: 40px;
 }
 
 main div {
   text-align: center;
   margin-top: 270px;
   font-size: 30px;
-}
-
-.rs-icon {
-  width: 40px;
+  color: white;
 }
